@@ -1,14 +1,16 @@
+<div align="center">
+  
 # Penetration Testing Report — Mediroza General Hospital
 
 **External Black-Box Web Application Assessment**
+
 **Target:** https://medirozahospital.com
-**Batch B082 | Week 4 | CONFIDENTIAL**
 
-> Prepared for: Mediroza General Hospital — Information Security Team
-> Prepared by: Sauda Abbasi, Penetration Tester
-> Engagement Dates: *[insert start–end dates]*
+**Batch B083 | Week 4**
 
-> ⚠️ This report contains sensitive information about the security posture of Mediroza General Hospital's systems. Distribution should be limited strictly to authorized personnel on a need-to-know basis.
+Submitted as part of: Cybersecurity and Ethical Hacking Internship — Network Walks <br> Prepared by: Saud Ur Rehman Abbasi, Cybersecurity Intern <br>
+
+</div>
 
 ---
 
@@ -24,7 +26,7 @@
 
 ## 1. Executive Summary
 
-Mediroza General Hospital engaged the penetration testing team to perform an external, black-box security assessment of its public-facing patient portal at https://medirozahospital.com. The objective was to identify exploitable vulnerabilities that could allow an unauthenticated attacker to compromise the confidentiality, integrity, or availability of patient and organizational data, and to provide practical remediation guidance.
+This report was prepared as part of a hands-on cybersecurity internship project, carried out as a guided penetration testing training exercise. The task simulated an external, black-box security assessment of a public-facing patient portal, https://medirozahospital.com (a controlled training target used for the exercise), with the objective of applying real-world penetration testing methodology to identify exploitable vulnerabilities that could allow an unauthenticated attacker to compromise the confidentiality, integrity, or availability of patient and organizational data, and to produce practical remediation guidance in a professional report format.
 
 Testing was carried out over three milestones — initial access, encryption analysis, and deep reconnaissance — using manual testing techniques supported by standard open-source tools (Gobuster, Hashcat) and online utilities. The assessment uncovered a chain of critical weaknesses that, together, allowed full compromise of the patient portal's access controls and exposure of highly sensitive data without any valid credentials.
 
@@ -47,7 +49,7 @@ Collectively, these issues represent a severe and immediate risk to Mediroza Gen
 |---|---|
 | **In-scope asset** | https://medirozahospital.com (patient portal and associated public web root) |
 | **Assessment type** | External, unauthenticated (black-box) web application penetration test |
-| **Engagement reference** | Batch B082 — Week 4 |
+| **Engagement reference** | Batch B083 — Week 4 |
 
 ### 2.2 Approach
 
@@ -59,7 +61,6 @@ Testing followed a staged approach, mirroring the three milestones of the engage
 
 ### 2.3 Tools Used
 
-- Web browser developer tools, for manual request crafting and response inspection
 - Manual SQL injection testing against the login form
 - Networkwalks Hash Calculator (online) — PDF hash extraction
 - Networkwalks Password Cracker (online) — common-password wordlist attack
