@@ -4,8 +4,6 @@
 
 **External Black-Box Web Application Assessment**
 
-**Target:** https://medirozahospital.com
-
 **Batch B083 | Week 4**
 
 Submitted as part of: Cybersecurity and Ethical Hacking Internship — Network Walks <br> Prepared by: Saud Ur Rehman Abbasi, Cybersecurity Intern <br>
@@ -47,7 +45,7 @@ Collectively, these issues represent a severe and immediate risk to Mediroza Gen
 
 | | |
 |---|---|
-| **In-scope asset** | https://medirozahospital.com (patient portal and associated public web root) |
+| **In-scope asset** | https://medirozahospital.com |
 | **Assessment type** | External, unauthenticated (black-box) web application penetration test |
 | **Engagement reference** | Batch B083 — Week 4 |
 
