@@ -1,6 +1,6 @@
 <div align="center">
   
-# Penetration Testing Report — Mediroza General Hospital
+# Penetration Testing Report
 
 **External Black-Box Web Application Assessment**
 
